@@ -1,0 +1,306 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background: #ccc;
+}
+#redbusmenublock{
+    background-color: #d84f57;
+    height: 60px;
+    color:#fff;
+    padding: 0px 50px;
+    z-index: 1;
+    position: relative;
+}
+#redbusmenublock .menuleft{
+    width: 50%;
+    float: left;
+}
+#redbusmenublock .menuright{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.logomenublock ul li a, .menuright ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.logomenublock ul , .menuright ul{
+    list-style: none;
+}
+.logomenublock ul li , .menuright ul li{
+    display: inline-block;
+}
+.logo{
+    width: 15%;
+    float: left;
+    
+}
+.logomenublock {
+    width: 85%;
+}
+
+.logo a{
+    text-indent: -99999px;
+    background: url('../images/logo');
+    display: inline-block;
+    height: 48px;
+    width: 80px;
+    margin: 6px;
+}
+
+/* dropdown css */
+ul.parent{
+    list-style: none;
+    
+}
+
+ul.parent li.child a{  
+    display: inline-block;
+    color: #fff;   
+    text-decoration: none;
+   
+}
+ul.parent li.child ul.dropdown{
+    position: absolute;
+    float: left;
+    background: white;
+    right: 73px;
+    display: none;
+    float: left;
+    background: white;
+    width: 177px;
+    height: 212px;
+    box-shadow: 2px 2px 2px 2px rgb(92, 84, 84);
+    margin-top: 22px;
+    padding-left: 0px;
+}
+ul.parent li.dropdownli ul.dropdown li.dropdownlistitem {
+    float: none;
+    padding-right: 117px;
+}
+ul.parent li.dropdownli ul.dropdown li.dropdownlistitem a{
+    display: block;
+    margin: 0px 0px 3px 0px;
+    color: black;
+    /* float: left; */
+
+}
+ul.parent li.dropdownli:hover ul.dropdown{
+    display: block;
+}
+
+
+.parent li .fa-angle-down{
+    cursor: pointer;
+}
+
+
+/* slider section */
+#slidersection{
+    background: url(../images/dhoni);
+    background-repeat: no-repeat;
+    height: 480px;
+    background-size: cover;
+    width: 100%;
+    margin-top: -30px;
+}
+#slidersection article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 488px;
+    flex-direction: row;
+}
+#slidersection article form{
+    display: flex;
+}
+#slidersection article form input{
+    padding: 10px 0px 10px 28px;
+}
+#slidersection article form button{
+    background: #d84f57;
+    padding: 11px 20px;
+    color: #fff;
+    border: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    width: 140px;
+
+}
+#slidersection article form span{
+    position: relative;
+}
+ 
+#slidersection article form i{
+    position: absolute;
+    top: 12px;
+    left: 7px;
+    color: #777;
+    font-size: 20p;
+}
+
+/* saveTo250block */
+#saveTo250{
+    background: #fff;
+    width: 500px;
+    height:120px;
+    box-shadow: 1px 1px 9px 1px #ccc;
+    margin: -62px auto 0px;
+}
+#saveTo250 article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* cashback css */
+#cashback{
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-items: center; */
+    margin: 50px 65px 82px;
+    /* padding: 20px; */
+    
+}
+#cashback div{
+    background: white;
+    padding: 10px;
+box-shadow: 1px 1px 4px 1px #999;
+width: 30%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+/* footer section css */
+#footersection{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    color: #b1babf;
+    background: #1b2330;
+    /* height: 500px: */
+    padding:35px 31px 0px 137px;
+}
+#footersection div{
+   
+    justify-content: space-evenly;
+    width: 20%;
+
+}
+#footersection div li{
+    list-style: none;
+    height: 28px;
+
+}
+#footersection div li a{
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+}
+#footersection div li a:hover{
+    color: #fff;
+}
+#footersection div header figure{
+margin-left: 0px;
+}
+
+#footersection div:nth-child(1) , #footersection div:nth-child(2) , #footersection div:nth-child(3){
+    flex: 1;
+}
+#footersection div:nth-child(4) , #footersection div:nth-child(5) {
+    flex: 2;
+}
+
+#footersection div p{
+font-weight: 700;
+margin-bottom: 19px;
+color: #797979;
+}
+#footersection div main p , #footersection div footer p{
+    color: #ccc;
+    font-size: 14px !important;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+#footersection div main a i{
+    padding: 10px !important;
+    height: 23px !important;
+    width: 23px !important;
+    border-radius: 100% !important;
+    border: 1px solid #ccc !important;
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+#whitebgsection{
+    background: white;
+    /* margin: 0px 80px; */
+    height: 1000px;
+}
+#whitebgsection .videosection{
+    background: url(../images/Videobg.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    width: 1122px;
+    height: 236px;
+    margin: 0 auto;
+    top: 25px;
+    position: relative;
+
+}
+.videosection iframe{
+    border: 2px solid #999;
+    width: 327px;
+    height: 185px;
+    margin: 22px;
+}
+
+/* onTime guarantee css */
+.ontime{
+    margin: 0px auto;
+    width: 1122px;
+    position: relative;
+    top: 25px;
+}
+.otgimg{
+    float: left;
+    margin: 20px;
+    background-repeat: no-repeat;
+    height: 88px;
+}
+.tipicon{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    float: left;
+} 
+.header p{
+   float: left;
+    margin: auto;
+}
+.text{
+    display: block;
+}
+.otgtext{
+    width: 156px;
+    height: 26px;
+    float: left;
+}
+.divsection{
+    display: flex;
+    margin: 56px 0 28px 0px;;
+}

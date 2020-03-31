@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms info</title>
+    <link rel="stylesheet" href="./css/forms.css">
+</head>
+<body>
+    <section>
+        <!-- <form method="POST" action="login.java"> attribute used for getting and posting dat a</form> -->
+<fieldset>
+    <!-- sets a secific area for the complete form -->
+    <legend>this is simple form</legend>
+    <!-- this is form headin -->
+<form action="">
+        <input type="radio" name="gender" >male
+        <input type="radio" name="gender">female
+
+        <br>
+
+        <!-- checkbox -->
+        <input type="checkbox" name="languages" checked>js <!--autochecked-->
+        <input type="checkbox" name="languages">java
+        <input type="checkbox" name="languages">angular
+        <input type="checkbox" name="languages">react
+        <input type="checkbox" name="languages">awa
+        <input type="checkbox" name="languages">phyton
+<br>
+
+<!-- textarea -->
+<textarea name="" id="" cols="30" rows="10"></textarea>
+<!-- textarea element represnts a muline plain text -->
+<br><hr>
+
+<select multiple>
+    <!-- multiple attribute is html5 attribute, This boolean attribute indicates multiple options can be 
+    selected in the list -->
+    <option value="java">java</option>
+    <!-- value attribute is a predefined attribute this is for the machine purpse which takes the data -->
+    <option value="python">python</option>
+    <option value="js">js</option>
+    <option value="angular" selected>angular</option>
+    <!--selected is html5 attribute whick makes the data as auto selected  -->
+    <option value="react">react</option>
+    <option value="rubby">rubby</option>
+    <option value="nodejs">nodeja</option>
+    <option value="expressjs">expressjs</option>
+
+</select>
+<br>
+
+
+<!-- using datalist element of html5 we can get selectbox and more effective but we cannot select multiple option
+selected doesnt work here -->
+<input type="text" list="lang" placeholder="search languages"> 
+<datalist id="lang">
+    <option value="java" name="java">java</option>
+    <option value="react">react</option>
+    <option value="rubby">rubby</option>
+    <option value="nodejs">nodeja</option>
+    <option value="expressjs">expressjs</option>
+</datalist>
+<br>
+
+<!-- range -->
+<input type="range" min="0" max="100" step="50">
+<!--html5 attribute, step attribute is used to step up or down the range of the value -->
+<br>
+
+<!-- email -->
+<input type="email" name="" id="" placeholder="enter the email">
+<!-- email is html5 typeholder -->
+<br>
+
+<!-- number -->
+<input type="number" name="" id="" min="0" max="10" maxlength="10">
+<!-- number is html4 attribute holder which holds only numberic value -->
+<br>
+
+<!-- telphone -->
+<input type="tel" placeholder="enter the phone number">
+<!-- tel attribute holder is html5 beta version which works only with iphone -->
+<br>
+
+<!-- files -->
+<input type="file" name="" id="">
+<!-- file attribute holder which used for uploading file  -->
+<br>
+
+<!-- reset -->
+<input type="reset" value="reset">
+<!-- reset all the present data -->
+<br>
+
+<!-- color -->
+<input type="color" name="" id="">
+<!-- used to choose color -->
+<br>
+
+<!-- url -->
+<input type="url" name="" id="" placeholder="enter a url">
+<!-- url type is used to take the url from the user --> 
+<br>
+<hr>
+
+<!-- date -->
+<input type="date" name="" id="" placeholder="date" autofocus><br>
+<!-- autofocus is html5 attribute, as the pages starts it focuses on the desrired markup -->
+<input type="datetime-local" name="" id="" placeholder="date and time local"><br>
+<input type="month" name="" id="" placeholder="enter the month"><br>
+<input type="week" name="" id="" placeholder="enter the week"><br>
+<input type="time" name="" id="" placeholder="enter the time"><br>
+<!--data type holder is used t pop up calender -->
+
+<!-- submit form -->
+<button type="submit">submit</button>
+<input type="submit" value="submit2">
+<!-- submit form can be done by using inputtag or by button tag -->
+<br>
+
+</form>
+</fieldset>
+    </section>
+</body>
+</html>
